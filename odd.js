@@ -2,9 +2,9 @@
 
 let num = 25;
 
-if (num % 2 !== 0) {
-    console.log("Odd Number")
+if (num % 2 === 0) {
+    console.log("Even Number");
 } else {
-    console.log("Even Number")
+    console.log("Odd Number");
 }
 
